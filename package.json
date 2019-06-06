@@ -6,6 +6,6 @@
   "dependencies": {
     "express": "4.10.5",
     "harp": "0.30.0",
-    "handlebars": "4.1.0"
+    "handlebars": "4.1.2"
   }
 }
