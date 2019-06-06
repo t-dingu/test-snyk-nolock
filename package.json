@@ -1,0 +1,11 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "This is the test repo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "4.10.5",
+    "harp": "0.30.0",
+    "handlebars": "4.1.0"
+  }
+}
