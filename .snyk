@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - zuul > browserify-istanbul > istanbul > fileset > glob > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > firefox-profile > archiver > file-utils > glob > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > wd > archiver > glob > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > browserify-istanbul > istanbul > fileset > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > browserify-istanbul > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > firefox-profile > archiver > file-utils > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > istanbul-middleware > archiver > glob > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
+    - zuul > firefox-profile > archiver > file-utils > findup-sync > glob > minimatch:
+        patched: '2019-06-07T22:34:19.711Z'
