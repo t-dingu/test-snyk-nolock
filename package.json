@@ -9,6 +9,12 @@
     "handlebars": "4.1.0",
     "mocha": "3.5.3",
     "zuul": "3.11.1",
-    "browserify": "16.2.3"
-  }
+    "browserify": "16.2.3",
+    "snyk": "^1.189.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
