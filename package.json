@@ -4,7 +4,7 @@
   "description": "This is the test repo",
   "main": "index.js",
   "dependencies": {
-    "express": "4.10.6",
+    "express": "4.17.3",
     "harp": "0.30.0",
     "handlebars": "4.1.0",
     "mocha": "3.5.3",
