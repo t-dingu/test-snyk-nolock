@@ -4,10 +4,10 @@
   "description": "This is the test repo",
   "main": "index.js",
   "dependencies": {
-    "express": "4.10.6",
+    "express": "4.21.2",
     "harp": "0.30.0",
     "handlebars": "4.1.0",
-    "mocha": "3.5.3",
+    "mocha": "11.0.1",
     "zuul": "3.11.1",
     "browserify": "16.2.3"
   }
